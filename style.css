@@ -1,0 +1,115 @@
+    body{
+        background-color: #DBCECE;
+    }
+    #nav-main{
+    background-color: rgb(32, 31, 49);
+    display: flex; /* Navbarı yatay hizala */
+    align-items: center; /* Dikeyde merkezle */
+    height: 60px;
+    margin-top: -8px;
+    margin-left: -8px;
+    }
+    #nav-main :first-child{
+    font-size: xx-large;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 130px;
+    
+    }
+    #nav-main a{
+        font-size: large;
+        text-decoration: none;
+        color: aliceblue;
+        padding: 20px;
+        display: flex; align-items: center;
+        }
+
+    #nav-main form.search {
+        display: flex; /* Arama formunu yatay hizala */
+        align-items: center; /* Dikeyde merkezle */
+    }
+    #nav-main form.search input {
+        text-decoration: center;
+        height: 32px;
+        margin-left: -40px;
+        width: 700px; /* Arama kutusunun genişliğini ayarla */
+        margin-right: 10px; /* Arama kutusu ile arama butonu arasına boşluk ekle */
+    }
+    #nav-main form.search button {
+        text-decoration: center;
+        height: 35px;
+        padding: 5px 10px; /* Arama butonuna boşluk ekle */
+        margin-right: 40px;
+    }
+
+    #nav-menu{
+        background-color: rgb(51, 72, 95);
+        display: flex; /* Navbarı yatay hizala */
+        align-items: center; /* Dikeyde merkezle */
+        height: 35px;
+        margin-top: -8px;
+        margin-left: -8px;
+    }
+    #nav-menu a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 10px;
+        margin-left: 10px;
+        font-size: large;
+        height: 15px;
+    }
+
+    div img{
+        height: 185px;
+        width: 380px;       
+        margin-top: 50px;
+        margin-left: 40px;
+        border: black;
+        border-radius: 5px;
+        display:block;
+     }    
+     div div{
+        display: inline-block;
+        padding: 30px;
+     }
+     #nav-main a:hover {
+        color: orange;
+        transition: 200ms;
+    }
+    #nav-main i:hover {
+        color: orange;
+        transition: 200ms;
+       
+    }
+    
+    #nav-menu a:hover {
+        
+        border: 1px solid whitesmoke;
+        transition: 100ms;
+    }
+
+    #kutu1, #kutu2, #kutu3, #kutu4 {
+        background-color:whitesmoke;
+        align-items: center;
+        margin: 60px;
+        height: 300px;
+        width: 15%;
+        border-radius: 5px;
+    }
+    #kutu1, #kutu2, #kutu3 {
+        margin-right: 20px;
+    }
+    #kutu4 {
+        margin-right: 0; /* Son kutu için sağ boşluğu sıfırla */
+    }
+    .container{
+        display: flex;
+        font-size: large;
+        font-weight: bold;
+        color:rgb(51, 72, 95) ;
+    }
+    .container a{
+        text-decoration: none;
+        color: rgb(73, 75, 159);
+    }
+    
